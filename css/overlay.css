@@ -1,0 +1,160 @@
+.btn-spinner {
+    width:20px;
+    height:20px;
+    margin-left: 0.4em;
+    display: none;
+}
+
+#main{
+    width: 100%;
+    display: none;
+}
+
+#part2{
+    display: none;
+}
+
+
+#main > div{
+    width: 850px;
+    background-color: white;
+    padding: 45px 20px;
+    margin: auto;
+}
+
+#da-new-wrapper{
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+#text01 > span{
+    font-size: 19.5px;
+    text-align: center;
+    color: black;
+}
+
+#text02 > span{
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+
+#logo{
+    text-align: center;
+}
+
+#buttons02,
+#buttons01{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#buttons02 > li > a{
+    color: white;
+    background-color: #00A123;
+    width: 199.188px;
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    font-size: 26px;
+    border-radius: 4.33px;
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+#buttons01 > li > a{
+    color: white;
+    background-color: #FF0000;
+    width: 161.109px;
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    font-size: 19.5px;
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+#buttons02 > li,
+#buttons01 > li{
+    display: flex;
+    justify-content: center;
+}
+
+#text02{
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+#buttons02{
+    margin-bottom: 25px;
+}
+
+#text01,
+#text02{
+    text-align: center;
+}
+
+#logo > img{
+    width: 260px;
+}
+
+#divider01{
+    border: 1px solid gray;
+    width: 600px;
+}
+
+@media(max-width: 850px){
+
+#main > div{
+    width: 100%;
+}
+
+}
+
+@media(max-width: 760px){
+
+#divider01{
+    width: 90%;
+}
+
+}
+
+@media(max-width: 660px){
+
+#text01 > span:nth-child(1) > br,
+#text01 > span:nth-child(4) > br{
+    display: none;
+}
+
+}
+
+@media(max-width: 450px){
+
+#buttons02 > li > a,
+#buttons01 > li > a{
+    width: 100%;
+}
+
+#logo > img{
+    width: 80%;
+}
+
+}
+
+

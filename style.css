@@ -1,0 +1,618 @@
+@charset "UTF-8";
+
+
+
+.grecaptcha-badge {
+
+    display: none;
+
+}
+
+
+
+body {
+
+    background-position: top;
+
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+
+}
+
+
+
+.step {
+
+    display: none;
+
+}
+
+
+
+.hide {
+
+    display: none;
+
+}
+
+
+
+.error_class {
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+.outer-container.content-area {
+    background: url(images/bkgrd.jpg) rgb(11 40 82) center;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    z-index: 1999;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.inner-container.content-area {
+    color: #ffffff;
+    padding: 20px;
+    z-index: 1999;
+    text-align: center;
+    background: #00000057;
+    min-height: 750px;
+}
+.cl {
+    font-size: 16px;
+}
+.cl a{
+font-size:16px;
+color:#FF0000;}
+
+#agent{font-size:15px; color:#fff;}
+.logo {
+
+   width: 100%;
+
+   float: center;
+
+   margin-top: 0px;
+
+   text-align: center;
+
+   padding: 10px 0px;
+
+   background-color: #000537;
+
+}
+
+
+
+.Formtitle {
+
+    width: 100%;
+
+    float: left;
+
+    padding-top: 0px;
+
+    padding-bottom: 0px;
+
+    font-family: "Open Sans";
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+    color: #ffffff;
+
+    margin-top: 0px;
+
+    text-align:center;
+
+}
+
+
+
+.FormSubtitle {
+
+    width: 100%;
+
+    float: left;
+
+    padding-top: 0px;
+
+    padding-bottom: 0px;
+
+    font-family: "Open Sans";
+
+    font-weight: 100;
+
+    font-size: 28px;
+
+    color: #ffffff;
+
+    margin-left: 0px;
+
+    text-align:center;
+
+}
+
+.img-resposible{
+
+    height:auto;
+
+    width:auto;
+
+}
+
+
+
+.hdr {
+
+    font-family: "Open Sans";
+
+    font-weight: 600;
+
+    font-size: 18px;
+
+    color: #ffffff;
+
+    text-align: center;
+
+}
+
+
+
+.hdr2 {
+
+    font-family: "Open Sans";
+
+    font-weight: 100;
+
+    font-size: 18px;
+
+    color: #ffffff;
+
+    text-align:center;
+
+}
+
+
+
+.recentChanges {
+
+    width: 100%;
+
+    float: left;
+
+    padding-top: 0px;
+
+    padding-bottom: 0px;
+
+    font-family: "Open Sans";
+
+    font-weight: 100;
+
+    font-size: 18px;
+
+    color: #ffffff;
+
+    margin-left: 0px;
+
+    text-align:center;
+
+    padding-top: 35px;
+
+}
+
+
+
+.agent {
+
+    width: 100%;
+
+    float: left;
+
+    padding-top: 0px;
+
+    padding-bottom: 0px;
+
+    font-family: "Open Sans";
+
+    font-weight: 100;
+
+    font-size: 18px;
+
+    color: #ffffff;
+
+    margin-left: 0px;
+
+    text-align:center;
+
+    padding-top: 15px;
+
+}
+
+
+
+.copyright {
+
+    text-align: center;
+
+    background-color: #FFFFFF;
+
+    color: #333333;
+
+    font-weight: normal;
+
+    font-size: 12px;
+
+    font-family: "Open Sans";
+
+    padding: 20px;
+
+}
+
+
+
+@media (max-width: 320px) {
+
+    .copyright {
+
+        padding-top: 25px;
+
+        padding-bottom: 0px;
+
+        margin-bottom: 0px;
+
+    }
+
+}
+
+
+
+.wrap {
+
+    color:#333;
+
+    text-align:center;
+
+    padding:10px 0;font-size:11px
+
+}
+
+
+
+.ty-col {
+
+    width: 50%;
+
+}
+
+.ty-txt {
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.content .wrap {
+
+    width:100%;
+
+    margin:0 auto;
+
+    max-width:1200px;
+
+}
+
+
+
+.form-control {
+    font-size: 16px;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: left;
+    color: #666666;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35%;
+    height: 50px;
+    margin: 10px 0 5px;
+}
+
+
+
+.form-container {
+
+    min-height:250px;
+
+    margin:0 auto;
+
+}
+
+.form-container .form-input {
+
+    clear:both;
+
+    margin:10px 0 0;
+
+    text-align:center;
+
+}
+
+.form-container .form-input p {
+
+    clear:both;
+
+    margin:20px 0;
+
+    text-align:left;
+
+}
+
+
+
+.button_group {
+
+    width:1200px;
+
+    margin:0 auto;
+
+    display:inline-block;
+
+}
+
+
+
+.cl {
+
+    clear:both;
+
+}
+
+
+p.tcpa {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+}
+.tcpa a{ color:#FFFF00;}
+   
+
+.stepBtn {
+
+    background-color:#40becd;
+
+    color: #ffffff;
+
+    font-size: 24px;
+
+    font-weight: 200;
+
+    border-radius: 40px;
+
+    padding: 10px 25px 10px 25px;
+
+    text-decoration: none;
+
+    background-position:left top;
+
+}
+
+
+
+.stepBtn:hover {
+
+    background-color:#097dc7;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+}
+
+
+
+.submitBtn {
+
+    background-color:#40becd;
+
+    color: #ffffff;
+
+    font-size: 24px;
+
+    font-weight: 200;
+
+    border-radius: 40px;
+
+    padding: 10px 25px 10px 25px;
+
+    text-decoration: none;
+
+    background-position:left top;
+
+}
+
+
+
+.submitBtn:hover {
+
+    background-color:#99e258;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+}
+
+
+
+.field_error {
+
+    border: 1px solid red !important;
+
+    background-color: #ffe4e4;
+
+}
+
+
+
+.small {
+
+    width: 50%;
+
+}
+
+
+
+@media screen and (max-width: 608px) {
+
+    .button_group {
+
+        width:292px;
+
+    }
+
+    .img-responsive{
+
+    height:auto;
+
+    width:100%!important;
+
+}
+
+
+
+    
+
+}
+
+
+
+@media screen and (max-width: 424px) {
+
+    .stepBtn,.submitBtn {
+
+        margin-top:5px;
+
+        margin-bottom:24px;
+
+    }
+
+
+
+    .small {
+
+        width: 80%;
+
+    }
+
+        .img-responsive{
+
+    height:auto;
+
+    width:100%!important;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    
+
+    .button_group {
+
+        width:100%;
+
+    }
+
+
+
+    .small {
+
+        width: 80%;
+
+    }
+
+        .img-responsive{
+
+    height:auto;
+
+    width:100%!important;
+
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 220px) {
+
+    .button_group {
+
+        width:100%;
+
+    }
+
+
+
+    .small {
+
+        width: 80%;
+
+    }
+
+        .img-responsive{
+
+    height:auto;
+
+    width:100%!important;
+
+}
+
+}
+
+@media screen and (max-width: 776px) {
+
+  .form-control {
+
+    width:100% !important;
+
+  }
+
+  
+
+  h2.da-hone {
+
+    color: #fff !important;
+
+    font-weight: 700;
+
+    font-size: 30px !important;
+
+    margin-bottom: 35px;
+
+}
+
+}
+
