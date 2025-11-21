@@ -19,8 +19,9 @@ $cell_phone=$_POST['cell_phone'];
 
 
 
-$to = 'rocketbuyeronline@gmail.com'; 
-$from = 'noreply@rocketpropertysolution.com'; 
+$to = 'rocketbuyeronline@gmail.com';
+$from = 'noreply@rocketpropertysolution.com';
+$fromName = 'Rocket Property Solutions';
 
 $subject = "MOTIVATED SELLER LEAD"; 
 
